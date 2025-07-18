@@ -241,3 +241,32 @@
     font-size: 30px;
     text-align: center;
 }
+
+.children {
+  display: flex;
+  gap: 20px;            /* երկու նկարի միջև տարածություն */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;      /* թույլ է տալիս, որ փոքր էկրանին կոտրվի հաջորդ տողի */
+  padding: 20px;
+}
+
+.children img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;  /* սիրուն կլոր անկյուններ */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+/* 📱 Փոքր էկրաններին (մինչև 600px) – նկարները դնենք վերև/ներքև */
+@media (max-width: 600px) {
+  .children {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .children img {
+    width: 80%; /* կարող ես փոխել՝ ինչքան լայն լինի */
+  }
+}
