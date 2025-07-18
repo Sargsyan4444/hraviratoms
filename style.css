@@ -1,0 +1,243 @@
+/* Custom audio player style */
+.custom-audio {
+    width: 220px;
+    height: 32px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    background: #fff6f0;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f3c6b8;
+    padding: 2px 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="__container"] {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.welcomePart, .calendarPart{
+    background-color: rgb(255, 247, 244);
+}
+.welcomeContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.welcomeImage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flower2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-20%);
+  width: 20vw; 
+  pointer-events: none; 
+}
+
+.flower1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(20%);
+  width: 20vw;
+  pointer-events: none;
+}
+
+
+.flower1,
+.flower2 {
+  width: 20vw; 
+}
+
+
+.welcomeText{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+
+.welcomeText>h2{
+    text-align: center;
+     font-family: "Noto Sans Armenian", sans-serif;
+     font-weight: 400;
+     font-size: 24px;
+}
+.welcomeText>h1{
+    
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.calendar__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.calendarPart {
+  background-color: rgb(255, 247, 244);
+}
+
+.calendar__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.calendar__container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.churchPart{
+    background-color: rgb(255, 247, 244);
+}
+.church__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.churchInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.churchInfo>div{
+    text-align: center;
+    font-weight: 700;
+}
+
+.time, .what{
+    font-weight: 900;
+}
+.church__container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* եթե ուզում ես կլոր անկյուններ */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* թեթև ստվեր */
+  padding-bottom: 10px;
+}
+.restoranPart{
+    background-color: rgb(255, 247, 244);
+    padding-top: 30px;
+}
+.restoran__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.restoranInfo{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.restoranInfo>div{
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+.restoran__container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* եթե ուզում ես, անկյունները կլորացրու */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* թեթև ստվեր */
+}
+.restoranBtn{
+    background-color: #f3c6b8;
+    color: #000000;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.churchBtn{
+      background-color: #f3c6b8;
+    color: #000000;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.endPart{
+    background-color: rgb(255, 247, 244);
+}
+
+.end__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.angelik{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 56px;
+}
+
+.thankWordImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.end__container>h3{
+    font-family: "Noto Sans Armenian", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
